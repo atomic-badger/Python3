@@ -1,0 +1,7 @@
+
+
+# name intro
+print("\nWelcome to Billy Quiz Boy.\n")
+name=input("What is your name?")
+print("\nHello, ", name + "!" + "\n")
+print("Let the games begin.\n")
