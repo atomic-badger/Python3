@@ -2,7 +2,7 @@
 
 
 # name intro
-#not introduced as a function because it only appears once
+#note introduced as a function because it only appears once
 #note use of line returns and input bells
 
 print("\nWelcome to The Monty Python Quiz Boy.\n")
