@@ -1,0 +1,9 @@
+# exercise from PY4E 2.3
+
+print("PY4E")
+
+xhours = input("enter hours: ")
+xrate = input("enter rate: ")
+
+xpayment = float(xhours) * float(xrate)
+print("Pay:", xpayment)
