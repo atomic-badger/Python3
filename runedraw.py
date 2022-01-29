@@ -1,10 +1,9 @@
 import random
-#by dwayne brock 1.29.2022
 
 # program to perform random rune draws
 
 aett_1 = ['Fehu','Uruz','Thurisaz','Ansuz','Raido','Kenaz','Gebo','Wunjo']
-aett_2 = ['Hagalaz','Nauthiz','Isa','Jera','Eiwaz','Perthro','Algiz','Sowilo']
+aett_2 = ['Hagalaz','Nauthiz','Isa','Jera','Eiwaz','Perthro','Elhaz','Sowilo']
 aett_3 = ['Tiwaz','Berkana','Ehwaz','Mannaz','Laguz','Ingwaz','Othala', 'Dagaz']
 
 def runedraw():
@@ -15,26 +14,56 @@ def runedraw():
 
 # FIRST DRAW
     draw_1 = random.choice(aett_1 + aett_2 + aett_3)
-    print(f"RESULT FOR FIRST DRAW:\t\t\t{draw_1}")
+    print(f"\n\tRESULT FOR FIRST DRAW:\t\t\t{draw_1}")
     
 # SECOND DRAW      
     draw_2 = random.choice(aett_1 + aett_2 + aett_3) 
     if draw_1 == draw_2:
         draw_2 = random.choice(aett_1 + aett_2 + aett_3)
-        print(f"RESULT FOR SECOND DRAW:\t\t\t{draw_2}")  
+        print(f"\n\tRESULT FOR SECOND DRAW:\t\t\t{draw_2}")  
     else:
-        print(f"RESULT FOR SECOND DRAW:\t\t\t{draw_2}")  
+        print(f"\n\tRESULT FOR SECOND DRAW:\t\t\t{draw_2}")  
         
 # THIRD DRAW 
     draw_3 = random.choice(aett_1 + aett_2 + aett_3)     
     if draw_3 == draw_2 or draw_3 == draw_1:
         draw_3 = random.choice(aett_1 + aett_2 + aett_3)
-        print(f"RESULT FOR THIRD DRAW:\t\t\t{draw_3}")   
+        print(f"\n\tRESULT FOR THIRD DRAW:\t\t\t{draw_3}")   
     else:
-        print(f"RESULT FOR THIRD DRAW:\t\t\t{draw_3}")  
+        print(f"\n\tRESULT FOR THIRD DRAW:\t\t\t{draw_3}")  
 
-    print("\nThis concludes the Rune Oracle.\n")  
+    print("\n\nThis concludes the Rune Oracle.\n")  
          
 runedraw()
+print("\nRUNE MEANINGS:\n")   
+print("\nThe following meanings of the Elder Futhark Runes will help your interpretation.\n")        
+print("\nFehu = 'mobile wealth'")  
+print("Uruz = 'charging bull, territory'")  
+print("Thurisaz = 'giant, opposer'")  
+print("Ansuz = 'divine force', 'Asgard'")  
+print("Raido = 'movement'")  
+print("Kenaz = 'torch'")  
+print("Gebo = 'gift'")  
+print("Wunjo = 'joy'")  
+print("Hagalaz = 'hailstorm'")  
+print("Nauthiz = 'needfire'")  
+print("Isa = 'ice'")  
+print("Jera = 'season, cycle'")  
+print("Eiwaz = 'yew-tree'")  
+print("Perthro = 'well, fate'")  
+print("Elhaz = warning")  
+print("Sowilo = 'sunlight'")  
+print("Tiwaz = 'spear, court'")  
+print("Berkana = 'Birch tree', 'growth'")  
+print("Ehwaz = 'horse'")  
+print("Mannaz = 'mind, memory'")  
+print("Laguz = lake, depths")  
+print("Ingwaz = 'growth, expansion'")  
+print("Othala = 'inheritance'")  
+print("Dagaz = 'day'\n")  
+
+
+
+
             
 
