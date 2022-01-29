@@ -1,4 +1,5 @@
 import random
+by dwayne brock 1.29.2022
 
 # program to perform random rune draws
 
