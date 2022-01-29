@@ -1,6 +1,6 @@
 import random
 
-# program to perform random rune draws
+# script to perform random rune draws
 
 aett_1 = ['Fehu','Uruz','Thurisaz','Ansuz','Raido','Kenaz','Gebo','Wunjo']
 aett_2 = ['Hagalaz','Nauthiz','Isa','Jera','Eiwaz','Perthro','Elhaz','Sowilo']
