@@ -1,5 +1,6 @@
 # EXAMPLES OF PULLING FILES INTO PYTHON, READING, WRITING, APPENDING
-
+# ALSO REQUIRES TEXT FILES file_text.txt, tombaker.txt, AND some_text.txt
+# ALL FOUR FILES ARE PLACED IN THE SAME FOLDER TO RUN
 
 # OPENS FILE
 with open("file_text.txt") as file:
