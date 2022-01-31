@@ -1,3 +1,6 @@
+# EXAMPLES OF PULLING FILES INTO PYTHON, READING, WRITING, APPENDING
+
+
 # OPENS FILE
 with open("file_text.txt") as file:
     print(file.read())
